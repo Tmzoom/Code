@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Alchemist</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="gg"> <h1>Alchemist</h1>
+    <h2>I am <span id="name">Alchemist</span> </h2>
+    <p>I am Alchemist, a designer looking for a job.</p>
+    <div class="im">
+     <img src="bot.jpg" alt="A robot image">
+     </div>
+     </div>
+     <div class="kk">
+    <p>My hobbies:</p>
+    <ul>
+        <li>Games</li>
+        <li>Sleep</li>
+    </ul>
+    </div>
+    <from>
+        <input  id ="from" type="text" placeholder="enter ur name">
+        <button type="button" id="submitButton">submit</button>
+    </from>
+    <script>
+
+     alert("welcome to my page!");
+     const name = prompt("enter ur name");
+     console.log("name");
+     document.getElementById("nameInput").innerText = name;
+
+       localStorage.getItem("name",name);
+
+        if(localStorage.getItem("name")){
+            
+        }
+
+
+       
+        
+    </script>
+</body>
+</html>
